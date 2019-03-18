@@ -55,7 +55,7 @@ func Root(c *gin.Context) {
 	data := gin.H{
 		"status": "Ok",
 		"host":   hostname,
-		"whoami":   "BALA ?? >> SUPER HERO",
+		"whoami":   "BALA THE SUPER HERO",
 		"FROM":   "NUS STACKUP",
 	}
 	c.JSON(200, data)
