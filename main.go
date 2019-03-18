@@ -26,6 +26,7 @@ type Source struct {
 
 func main() {
 
+	// Temp
 	gin.SetMode(gin.ReleaseMode)
 
 	router := gin.Default()
