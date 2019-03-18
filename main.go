@@ -56,6 +56,7 @@ func Root(c *gin.Context) {
 		"status": "Ok",
 		"host":   hostname,
 		"whoami":   "Bala >> SUPER HERO",
+		"FROM":   "NUS STACKUP",
 	}
 	c.JSON(200, data)
 }
